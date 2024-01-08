@@ -32,12 +32,11 @@ export default defineAppConfig({
     },
     socials: {
       twitter: 'mbanusic',
-      instagram: 'atinuxt',
 
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/company/ne-znam'
       },
 
       github: 'ne-znam'
