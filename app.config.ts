@@ -11,9 +11,9 @@ export default defineAppConfig({
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '', // path of the logo
-        pathDark: '', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'Ne znam' // alt of the logo
+        path: 'logo.svg', // path of the logo
+        pathDark: 'logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        alt: 'Ne znam', // alt of the logo
       }
     },
     footer: {
@@ -22,7 +22,7 @@ export default defineAppConfig({
         enabled: true,
 
         // our github repository
-        repository: '',
+        repository: 'https://github.com/mbanusic/neznam',
 
         text: 'Ne znam'
       },
