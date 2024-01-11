@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       meta: [
         {
           name:'impact-site-verification',
-          value:'29137b01-327d-45bf-8512-1f65408812ef'
+          content:'29137b01-327d-45bf-8512-1f65408812ef'
         },
         {
           name: 'twitter:card',
