@@ -1,1 +1,0 @@
-import{k as r,b as t,c,a3 as n}from"./entry.gPFBsgP8.js";const o={};function s(e,a){return t(),c("em",null,[n(e.$slots,"default",{},void 0,!0)])}const l=r(o,[["render",s],["__scopeId","data-v-7b988cbe"]]);export{l as default};
