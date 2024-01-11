@@ -21,5 +21,10 @@ export default defineNuxtConfig({
       url: 'https://nezn.am',
       logo: 'https://nezn.am/logo.png'
     }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   }
 })
