@@ -1,7 +1,28 @@
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
-
+  app: {
+    head: {
+      meta: [
+        {
+          name:'impact-site-verification',
+          value:'29137b01-327d-45bf-8512-1f65408812ef'
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          name: 'twitter:site',
+          content: '@mbanusic',
+        },
+        {
+          name: 'twitter:creator',
+          content: '@mbanusic',
+        },
+      ],
+    }
+  },
   modules: [
     // https://github.com/nuxt/devtools
     '@nuxt/devtools',
