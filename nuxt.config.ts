@@ -36,12 +36,17 @@ export default defineNuxtConfig({
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
   },
   schemaOrg: {
+    minify: false,
     identity: {
       type: 'Organization',
       name: 'Ne znam',
       url: 'https://nezn.am',
-      logo: 'https://nezn.am/logo.png'
-    }
+      logo: 'https://nezn.am/logo.png',
+      sameAs: [
+        'https://www.linkedin.com/company/ne-znam',
+      ],
+    },
+    debug: true,
   },
   nitro: {
     prerender: {
