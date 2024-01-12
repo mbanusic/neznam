@@ -57,17 +57,18 @@ if (page.value && page.value.cover) {
 
 useSchemaOrg([
     defineArticle({
-      title: page.value?.title,
+      headline: page.value?.title,
       description: page.value?.description,
       image: page.value?.cover,
       url: route.fullPath,
-      publishedTime: page.value?.date,
-      modifiedTime: page.value?.date,
+      dateCreated: page.value?.date,
+      dateModified: page.value?.date,
+      datePublished: page.value?.date,
       author: {
         name: 'Marko Banušić',
         image: 'https://0.gravatar.com/avatar/56d26a93583d2b9e3269f35e1370b6619e83e84e446c09b7fd32b69507586697?size=512',
-        link: 'https://mbanusic.com',
         sameAs: [
+          'https://mbanusic.com',
           'https://www.facebook.com/mbanusic',
           'https://twitter.com/mbanusic',
           'https://www.linkedin.com/in/mbanusic',
