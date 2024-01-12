@@ -72,6 +72,7 @@ useSchemaOrg([
           'https://www.facebook.com/mbanusic',
           'https://twitter.com/mbanusic',
           'https://www.linkedin.com/in/mbanusic',
+          'https://gravatar.com/mbanusic'
         ]
       }
     })
